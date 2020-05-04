@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="mod_spec_stylesheet.xsl"?>
+<Root>
+	<ModuleSpec>
+		<Code_of_Module>SOFT355</Code_of_Module>
+		<Title_of_Module>Distributed Application Development</Title_of_Module>
+		<Number_of_Credits>20 CREDIT MODULE</Number_of_Credits>
+		<Assessment>90% COURSEWORK SUBMISSION / 10% IN-CLASS TEST</Assessment>
+		<Module_Leader>DAVID WALKER</Module_Leader>
+		<Module_Aims>This module explores the production of dynamic web applications with a particular focus on the web environment. Key elements such as object oriented and event-based scripting, asynchronus client-server communication and distributed content and representation are explored through practical production. The production of working systems use frameworks such as HTML, CSS, JavaScript/JQuery and Node.js</Module_Aims>
+		<Assessed_Learning_Outcomes_ALO1>1. Apply principles of object oriented and event-based scripting as well as synchronous and asynchronous clent-server communication</Assessed_Learning_Outcomes_ALO1>
+		<Assessed_Learning_Outcomes_ALO2>2. Demonstrate an understanding of how application content is represented and communicated across the web and how this affects the user experience</Assessed_Learning_Outcomes_ALO2>
+		<Assessed_Learning_Outcomes_ALO3>3. Design, implement and evaluate/test dynamic web-based applications.</Assessed_Learning_Outcomes_ALO3>
+		<Overview>SOFT355 – Distributed Application Development is a first semester module that provides you with experience of full-stack JavaScript development for web applications. You learn about writing client-side and server-side software using JavaScript as you use JQuery, Angluar.JS and Node.JS, as well as exploring how data is stored and communicated on the web.
+
+The module assessment is twofold. You will sit an in-class test during week 13, which will be used to evaluate your JavaScript programming ability. The test contributes 10% of the final module mark, with the remaining 90% from a self-chosen individual project. Put simply, the project requires you to design and implement a distributed web application using the technologies and skills you have learned during the module. Though you are encouraged to start thinking about your application from the beginning of the module, the first deliverable is due in week 17 when you submit a project proposal. The purpose of the proposal is to ensure that the scope of the project is sufficient to achieve an excellent mark, and you will receive feedback in week 17. The final coursework submission is in week 24, after Christmas, and you are required to submit a report on the application and the code you have created. During that week you will be required to demonstrate your work to the module leader. In line with University regulations you will receive feedback on your coursework 20 working days following submission, in week 28.</Overview>
+		<Module_Delivery>A lecture series with supporting workshop activites with topics including: client-side web development (HTML, CSS and JavaScript ), Jquery, and AngularJS; persistence, including NoSQL and local storage technologies; peer to peer communications; and web-based software development and testing approaches. 
+
+Each lecture will be followed by a corresponding practical workshop in which students will apply the techniques they have learned in the lectures. Students are expected to self-select a workshop to attend, and should only attend one workshop per week.
+
+Lectures: 
+Monday, 2pm-4pm
+Portland Square, Plymouth lecture theatre
+Workshops: 
+Friday, 9am-11am
+Smeaton 104
+Friday, 11am-1pm
+Smeaton 104 / (Babbage 207 / Babbage 208 some weeks)
+Duration:
+12 weeks</Module_Delivery>
+	</ModuleSpec>
+</Root>

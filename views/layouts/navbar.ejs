@@ -1,0 +1,29 @@
+<!--Navigation bar Admin layout for -->
+<nav class="nav-bar">
+    <ul>
+        <li><a href="/" class="current">Home</a></li>
+        <li><a href="/about">About</a></li>
+
+        <% if(!loggedIn) { %>
+        <li><a href="/userLogin">Login</a></li>
+        <% }%>    
+        <% if (loggedInAccount == 'Administrator') { %>
+        <li><a href="/admin">Admin Dashboard</a></li>
+        <li><a href="/usersetup">User Setup</a></li>
+        <li><a href="/modulerecords">Module Records</a></li>
+        <li><a href="/moduletemplate">Module Template</a></li>
+        <% }%>
+        <% if (loggedInAccount == 'Lecturer') { %>
+        <li><a href="/lecturer">Lecturer Dashboard</a></li>
+        <li><a href="/modulerecords">Module Records</a></li>
+        <li><a href="/moduletemplate">Module Template</a></li>
+        <% }%>
+        <% if (loggedInAccount == 'Student') { %>
+        <li><a href="/student">Student Dashboard</a></li>
+        <li><a href="/modulerecords">Module Records</a></li>
+        <% }%>
+        <% if (loggedIn) { %>
+        <li><a href="/auth/logout">Log out</a></li>
+        <% }%>
+    </ul>
+</nav>

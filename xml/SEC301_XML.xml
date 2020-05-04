@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="mod_spec_stylesheet.xsl"?>
+<Root>
+	<ModuleSpec>
+		<Code_of_Module>SEC301</Code_of_Module>
+		<Title_of_Module>INFORMATION SECURITY MANAGEMENT AND GOVERNANCE</Title_of_Module>
+		<Number_of_Credits>20 CREDIT MODULE</Number_of_Credits>
+		<Assessment>100% COURSEWORK SUBMISSION</Assessment>
+		<Module_Leader>STEVE FURNELL</Module_Leader>
+		<Tutor>STEVE FURNELL, NICHOLAS GERVASSIS</Tutor>
+		<Assessed_Learning_Outcomes_ALO1>1.  To research and produce recommendations in relation to an area of relevance to Information Security Managers. Research to be conducted utilising traditional sources (books, journals, articles etc.) as well as the Internet.</Assessed_Learning_Outcomes_ALO1>
+		<Assessed_Learning_Outcomes_ALO2>Awareness of issues and analysis of relevant law asociated with Information Security Management and Governance</Assessed_Learning_Outcomes_ALO2>
+		<Module_Delivery>To research and produce recommendations in relation to an area of relevance to Information Security Managers. Research to be conducted utilising traditional sources (books, journals, articles etc.) as well as the Internet. Production of a report of no more than 3,000 words, including the business case and interview plan (max. one page each).</Module_Delivery>
+	</ModuleSpec>
+</Root>

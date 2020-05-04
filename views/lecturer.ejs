@@ -1,0 +1,25 @@
+<!--This is for the Lecturerpage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Lecturer Page"></div>  <!--This identifies the page as the lecturer page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body-lecturer>
+        <br/>
+        <h2>Lecturer Dashboard</h2>
+        <br/>
+        <br/>
+        <p>Welcome to the Lecturer Dashboard.</p>
+        <p>From this dashboard, you can navigate to see the completed module documents, that are using XML data and XSLT stylesheets by clicking on MODULE RECORDS.</p>
+        <p>You also have access to the Module Template page by clicking on MODULE TEMPLATE from which you can download the Excel template. Once completed, you can export the completed template as XML data, by using the Export option in the Developer Ribbon. If Developer is not visible in the Ribbon, right click on the Ribbon, select Customise the Ribbon.
+        In the Main Tabs, Developer will be unticked. If so, tick the Developer, then click ok. In Developer, click Export, then choose where to export the XML Data. The Upload function can be used to upload the XML data, which is used with XSLT stylesheet for the browser to display.</p>
+        <br/>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

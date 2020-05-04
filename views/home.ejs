@@ -1,0 +1,23 @@
+<!--This is for the Homepage View-->
+<!DOCTYPE html>
+<html lang="en">
+    <body >
+        <title>Homepage</title>
+        <div id = "Home Page"></div>  <!--This identifies the page as the home page--->
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+        <section class = site-body-home>
+        <br/>
+        <h2>Welcome to the University of Plymouth Module Document Management System.</h2>
+        <br/>
+        <p>Introduction to the University of Plymouth Module Document Management System</p>
+        <p>This is my project web application that has been designed and created for Administrators, Lecturers and Students.</p> 
+        <p>The purpose of the project is to design an application to manage the workflow of creating and managing documentation, for programmes of study, and to allow it to be easily reformatted. It allows administrators and lecturers to manage the workflow of module records, and to display them to students using a common XSLT stylesheet for the documents.</p>
+        <br/>
+        <p>For more information about the application visit the About page.</p>
+        <br/>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

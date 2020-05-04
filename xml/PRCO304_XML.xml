@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="mod_spec_stylesheet.xsl"?>
+<Root>
+	<ModuleSpec>
+		<Code_of_Module>PRCO304</Code_of_Module>
+		<Title_of_Module>Computing Project</Title_of_Module>
+		<Number_of_Credits>40 CREDIT MODULE </Number_of_Credits>
+		<Assessment>100% COURSEWORK SUBMISSION</Assessment>
+		<Module_Leader>LIZ STUART </Module_Leader>
+		<Tutor>SHIRLEY ATKINSON, NATHAN CLARKE, STEVEN FURNELL, SWEN GAUDL, BOGDAN GHITA, JAMES HAYTER, VASILIOS KELEFOURAS, KEVIN JONES, DAN LIVINGSTONE, MARCO PALOMINO, LINGFEN SUN, KIMBERLY TAM, MARIUS VARGA, DAVID WALKER, PAUL WATSON, THOMAS WENNEKERS</Tutor>
+		<Module_Aims>This module aims to enable the student to undertake an individual project on an approved topic of interest, that addresses a significant computing related problem relevant to the programme of study.  To provide an opportunity for the student to integrate many of the threads of their programme of study. </Module_Aims>
+		<Assessed_Learning_Outcomes_ALO1>1.  Demonstrate an investigative component to the project showing consolidation and development of knowledge and understanding relevant to their programme of study.</Assessed_Learning_Outcomes_ALO1>
+		<Assessed_Learning_Outcomes_ALO2>2.  Produce an approved deliverable appropriate to the programme of study that addresses a significant computing related problem.</Assessed_Learning_Outcomes_ALO2>
+		<Assessed_Learning_Outcomes_ALO3>3.  Manage the project effectively by demonstrating the application of project management skills.</Assessed_Learning_Outcomes_ALO3>
+		<Assessed_Learning_Outcomes_ALO4>4.  Identify and take due consideration of the legal, social, ethical and professional issues that are appropriate to the project.  </Assessed_Learning_Outcomes_ALO4>
+		<Assessed_Learning_Outcomes_ALO5>5.  Communicate effectively all aspects of the project deliverables including the theoretical and methodological framework.</Assessed_Learning_Outcomes_ALO5>
+		<Overview>PRCO304, the Computing Project is a Semester 2, 40 credit, final year module where you address a significant problem and apply technology to solve it. This is the culmination of your degree, the opportunity to demonstrate everything you have learned to date. Students are expected to complete approximately 400 hours of work for the project (approximately 30 hours per week) throughout the duration of the second semester.This module is twice the credits of any other module you have studied to date.  It is not just a technical module but is also academic.  You will need to write in good academic style, you will need to consider the wider picture than just the technology you are using and you will need to deliver a good end result.The project management methodology required for this project is Agile. The Agile methodology requires you to begin with a project set up. I have created a form for you to complete on the DLE. It requires you to  submit (i) a project vision, (ii) a set of keywords which represent the breadth of your proposal, (iii) a text based risk management plan and (iv) a short list of suggested supervisors. Once you have submitted this data,  I will be able to allocate your supervisor to you. After you have been allocated your supervisor, you should develop your project backlog and plan how you carry out your sprints, in preparation for the beginning of Semester 2. When the second semester begins, you will be expected to plan your sprints; these should be 2 weeks long. You are also expected to attend group based meetings with your supervisor. Initially, these will be weekly, then every fortnight.  Each sprint must be planned: you must determine what tasks will be implemented from the project backlog and reviewed.  A core aspect of Agile development is that a minimum viable product should be demonstrated/released at the end of every sprint.  Further details are below.To pass this module you must achieve an overall grade of 40% for your work.                                                  </Overview>
+		<Module_Delivery>The module is assessed as 100% coursework.  The coursework is a portfolio that you build up over the duration of the semester. It will comprise interim deliverables as well as a final set of deliverables. The final submission will combine your work to date, your technical solution, your writing, your project management, your showcase participation and a project demonstration – where you show your work to two examiners.
+
+Delivery format: 	
+Small group meetings with your allocated supervisor. 
+• These will be held weekly with your supervisor in Weeks 27 – 30. 
+•Thereafter, the meetings will be held every fortnight in Weeks 31, 33,  35, 39 and 41. Note that Week 36, 37 and 38 are the Easter holidays. 
+• Group based project meetings will be booked by your allocated supervisor. Note that meeting times and days may vary during the Semester.  
+
+Duration: 		
+13 weeks
+
+Delivery staff: 	
+You will be allocated to a supervisor following the submission of your project proposal.  You are expected to be in contact with your supervisor throughout.  Please note the module leader is there as a last resort. You will be allocated a second supervisor/marker who will be present at your project demonstration.</Module_Delivery>
+	</ModuleSpec>
+</Root>

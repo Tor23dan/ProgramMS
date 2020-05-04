@@ -1,0 +1,46 @@
+<!--This is for the ModuleTemplatepage View-->
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Module Template Page"></div>  <!--This identifies the page as the module records page--->
+
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        
+        <% if (errors != null && errors.length >0) { %> 
+            <ul class = "list-group">
+            <% for(var i = 0; i < errors.length; i++) { %>
+            <li class="list-group-item"><%=errors[i] %></li>
+            <% } %>
+            </ul>
+        <% } %>
+
+        <section class = site-body-moduletemplate>
+        <br/>
+        <h2>Module Template</h2>
+        <br/>
+        <p>Please download the module template, fill in the template, export the filled in template into XML data and upload XML data using the buttons below:</p>
+        <br/>
+        <!--Template form-->
+        <form action="/download" method="GET">
+        <div class="site-template">
+            <label>Module Specification Templates</label>
+            <br>
+            <button type="submit" class="template-btn"><b>Download Module Specification Template</b></button>
+        </div>
+        </form>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="site-template">
+                <label>Completed XML Templates</label>
+                <br>
+                <input type="file" name="file" class="template-btn">
+                <br>
+                <button type="submit" class="template-btn"><b>Upload Completed Module Specification Templates</b></button>
+            </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

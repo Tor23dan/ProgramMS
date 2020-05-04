@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="mod_spec_stylesheet.xsl"?>
+<Root>
+	<ModuleSpec>
+		<Code_of_Module>ISAD362</Code_of_Module>
+		<Title_of_Module>Software Project Management</Title_of_Module>
+		<Number_of_Credits>20 CREDIT MODULE</Number_of_Credits>
+		<Assessment>75% EXAM / 25% IN-CLASS TEST</Assessment>
+		<Module_Leader>SHIRLEY ATKINSON</Module_Leader>
+		<Module_Aims>This module aims to enable students to acquire a critical understanding of the management and methodological issues asociated with software development. </Module_Aims>
+		<Assessed_Learning_Outcomes_ALO1>1.  Demonstrate a critical ability to apply the techniques of project and quality management (including mathmatically based approaches). </Assessed_Learning_Outcomes_ALO1>
+		<Assessed_Learning_Outcomes_ALO2>2. Discuss and advise upon the possible management and methological issues that might be encountered during the software cycle.</Assessed_Learning_Outcomes_ALO2>
+		<Assessed_Learning_Outcomes_ALO3>3.  Discuss and advise upon the issues asociated with distributed software development and process improvement. </Assessed_Learning_Outcomes_ALO3>
+		<Overview>This document provides informtion regarding the January 2020 ISAD362 exam. The questions and marking schema are provided as the seen paper. Referral for this exam will be through coursework in the summer. </Overview>
+		<Module_Delivery>This module is assessed by an exam. This document is provided to students so that they may properly prepare for the module exam. The module exam is a 3 hour seen paper. The exam is not an open book exam. You CANNOT take books with you into the exam but only one sheet of A4 paper containing a list of references that will be used during the answering of the questions. </Module_Delivery>
+	</ModuleSpec>
+</Root>

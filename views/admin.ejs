@@ -1,0 +1,25 @@
+<!--This is for the Adminpage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Admin Page"></div>  <!--This identifies the page as the admin page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body-admin>
+        <br/>
+        <h2>Administrator Dashboard</h2>
+        <br/>
+        <p>Welcome to the Administrator Dashboard.</p> 
+        <p>From this dashboard, to navigate for the creation of user-accounts, click on User Setup. Once on this page, you can create adminstrator, lecturer and student accounts.</p>
+        <p>As an administrator, you also have access to view the completed module documents, that are using XML data and XSLT stylesheets by clicking on MODULE RECORDS.</p>
+        <p>You also have access to the Module Template page, by clicking on MODULE TEMPLATE, which the lecturer uses to download the Excel template, to fill in and then export as XML Data.  This can then be uploaded, to use and style with XSLT for the browser to display.</p>
+        <br/>
+
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

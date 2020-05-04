@@ -1,0 +1,38 @@
+<!--This is for the Aboutpage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "About Page"></div>  <!--This identifies the page as the about page--->
+
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body-about>
+        <br/>
+        <h2>About the Project</h2>
+        <br/>
+        <p><b><u>Background of project:</u></b></p>
+        <p>The purpose of this project was to explore and improve the current method, for storing and managing documentation for programs of study.
+        This application was created to resolve issues with reformatting documents, for managing programmes of study for the university. Currently, the core set of documentation is 
+        managed by administrators, and stored using Sharepoint, and standard word templates.</p>
+        <p>From time to time, as improvements are made to the quality procedures, it is necessary to change the formatting of the documents. This is very time-consuming, as each document has to be changed.
+        However, very often the content remains the same.</p>
+        <p>There is a need for a suitable application, that can manage the workflow of creating and managing the documentation required by the University.</p>
+        <p>So this document management system was created, where document content is stored as XML data, and styled with a XSLT stylesheet.</p>
+        <p><b><u>Administrator Dashboard:</u></b></p>
+        <p>On the login screen, to access the Administrator's dashboard, you have to login as an administrator. Once logged in, on the Administrators dashboard,
+        it will allow you to access "User Setup" to create administrator accounts, lecturer accounts and student accounts. As an administrator you also have
+         access to the completed Module Records page, which displays the completed XML data using a XSLT stylesheet. The administrator also has access to the Module Templates page, and can use the upload function to retrieve files, that the lecturers have completed.</p>
+        <p><b><u>Lecturer Dashboard:</u></b></p>
+        <p>Accessing the Lecturer Dashboard, requires logging in as a lecturer. Once logged in from the Lecturer Dashboard, the lecturer has access to the
+        Module Records page, to view the completed module records, and the Module Templates page. From the Module Templates page, template files can be downloaded. Once the template file is completed in Excel, with the required
+        information, it can then be exported as XML data. The upload function can be used to  upload the XML data, for the administrator to use with the standardised XSLT stylesheet, for display onto the browser.</p>
+        <p><b><u>Student Dashboard:</u></b></p>
+        <p>Accessing the Student Dashboard, requires logging in as a student. Once logged in from the Student Dashboard, the student can view the completed module templates.</p>
+        <br/>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

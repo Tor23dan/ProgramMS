@@ -1,0 +1,30 @@
+<!--This is for the ModuleRecordspage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Module Records Page"></div>  <!--This identifies the page as the module records page--->
+
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body-modulerecords>
+        <br/>
+        <h2>Module Records</h2>
+        <br/>
+        <p>Completed Module Program Specification Documents that use XML and XSLT Stylesheets:</p>
+        <br/>
+        <button onclick="window.location.href = '/xml/SOFT355_XML.xml';" class="modulerecord-btn"><b>SOFT355 Distributed Application Development</b></button>
+        <br/>
+        <button onclick="window.location.href = '/xml/SEC301_XML.xml';" class="modulerecord-btn"><b>SEC301 Information Security Management and Governance</b></button>
+        <br/>
+        <button onclick="window.location.href = '/xml/PRCO304_XML.xml';" class="modulerecord-btn"><b>PRCO304 Computing Project</b></button>
+        <br/>
+        <button onclick="window.location.href = '/xml/ISAD363_XML.xml';" class="modulerecord-btn"><b>ISAD363 Advanced Databases</b></button>
+        <br/>
+        <button onclick="window.location.href = '/xml/ISAD362_XML.xml';" class="modulerecord-btn"><b>ISAD362 Software Project Management</b></button>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

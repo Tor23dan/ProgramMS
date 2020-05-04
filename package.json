@@ -1,0 +1,30 @@
+{
+  "name": "3rdyearproject",
+  "version": "0.5.0",
+  "description": "3rd year project program management system software version files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3rd",
+    "year",
+    "project"
+  ],
+  "author": "djbuckley",
+  "license": "ISC",
+  "engines":{
+    "node": "13.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.10",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}

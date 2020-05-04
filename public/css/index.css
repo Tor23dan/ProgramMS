@@ -1,0 +1,274 @@
+.element::-webkit-input-placeholder { /*This styles the placeholder for chrome/safari/edge*/
+    color: #000000;
+    font-weight: bold;
+}
+.element::-moz-placeholder{ /*This does styling of the placeholder for mozilla firefox ver 19+*/
+    color: #000000;
+    font-weight: bold;
+}
+
+element:-moz-placeholder{   /*This does styling of the placeholder for mozzilla firefox ver 18+*/
+    color: #000000;
+    font-weight: bold;
+}
+
+.element:-ms-input-placeholder {    /*This styles the placeholder for microsoft internet explorer ver 10+*/
+    color: #000000;
+    font-weight: bold;
+}
+
+.element:-o-input-placeholder {     /*This styles the placeholder for opera*/
+    color: #000000;
+    font-weight: bold;
+}
+
+.moduleoverview{
+    text-align: center;
+}
+
+body{
+    color:#000000;
+    font-family:lora, Georgia, Times, serif;
+    /*This finds the image*/
+    background-image: url(/img/backgroundimg.jpg);
+    /*This positions the background image*/
+    background-position: center;
+    /*This adjusts Background image so that it doesn't tile*/
+    background-repeat: no-repeat;
+    /*This adjusts Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image height*/
+    background-attachment: fixed;
+    /*This is what makes the background image rescale based on the container's size*/
+    background-size: 100%;
+    /*This sets a temporary background color*/
+    background-color:#f9f8f6;
+    
+}
+
+.site-body-home{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 15px 60px;
+    color: #ff3a22;
+    text-align: left;
+    font-weight: bold;
+}
+
+.site-body-about{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 15px 60px;
+    color: #ff3a22;
+    text-align: left;
+    font-weight: bold;
+}
+
+.site-body-login{
+    font-size: 22px;
+    line-height: 0.8cm;
+    padding: 15px 60px 15px 60px;
+    text-align: left;
+    color: #ff3a22;
+    font-weight: bold;
+}
+
+.site-body-admin{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 15px 60px;
+    text-align: left;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-body-setup{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 30px 60px;
+    text-align: left;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-body-lecturer{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 15px 60px;
+    text-align: left;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-body-student{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 15px 60px;
+    text-align: left;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-body-modulerecords{
+    font-size:22px;
+    line-height: 0.8cm;
+    padding: 15px 60px 65px 60px;
+    text-align: center;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-body-moduletemplate{
+    font-size: 22px;
+    line-height: 1.0cm;
+    padding: 15px 60px 65px 60px;
+    text-align: left;
+    color:#ff3a22;
+    font-weight: bold;
+}
+
+.site-heading{
+    margin:5px auto 5px auto;
+    height: 80px;
+    border: 2px solid #000000;
+    background-color: #5CDB95;
+}
+.nav-bar{
+    margin:0px auto 30px auto;
+    height:60px;
+    border: 2px solid #000000;
+    background-color: #5CDB95;
+}
+nav ul{
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: lora, Georgia, Times, serif;
+    text-align: left;
+    padding: 15px 200px 5px 0px;
+}
+
+nav li{
+    display:inline;
+    margin-right: 20px;
+}
+
+nav li a{
+    color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.site-login{
+    text-align: center;
+    
+}
+.site-user-setup{
+    text-align: center;
+}
+
+.site-template{
+    text-align: center;
+}
+
+.a{
+    color: #de6581;
+
+}
+
+h2{
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color:#ff3a22;
+    
+}
+
+h3{
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color: #000000;
+}
+
+h4{
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color: #000000;
+}
+
+.list-group-item{
+    text-align: center;
+    list-style-position: inside;
+    color:#000000;
+    background-color:#F42222;
+    font-family:lora, Georgia, Times, serif;
+    font-size: 20px;
+    width: 98.6%;
+}
+
+.signin-btn {
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 14px 20px;
+    font-size: 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;  
+}
+.signin-btn:hover {
+    opacity: 0.8;
+}
+
+.template-btn{
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 15px 20px;
+    font-size: 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.modulerecord-btn{
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 15px 20px;
+    font-size: 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.usersetup-btn{
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 14px 20px;
+    font-size: 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;  
+}
+.usersetup-btn:hover{
+    opacity: 0.8;
+}
+footer{
+    font-size:80%;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    color: #000000;
+    background-color: #aeaca8;
+    position:fixed;
+    bottom: 0%;
+    z-index: 1;
+}

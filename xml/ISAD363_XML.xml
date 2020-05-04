@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="mod_spec_stylesheet.xsl"?>
+<Root>
+	<ModuleSpec>
+		<Code_of_Module>ISAD363</Code_of_Module>
+		<Title_of_Module>ADVANCED DATABASES</Title_of_Module>
+		<Number_of_Credits>20 CREDIT MODULE</Number_of_Credits>
+		<Assessment>100% COURSEWORK SUBMISSION</Assessment>
+		<Module_Leader>Dr MARCO PALOMINO</Module_Leader>
+		<Tutor>Dr MARCO PALOMINO, CHRISTOPHER HAYNES</Tutor>
+		<Assessed_Learning_Outcomes_ALO1>1.  Critically compare and contrast the differences between relational and non-relational (NoSQL) databases.</Assessed_Learning_Outcomes_ALO1>
+		<Assessed_Learning_Outcomes_ALO2>2.  Critically appraise NoSQL database strengths and weaknesses.</Assessed_Learning_Outcomes_ALO2>
+		<Assessed_Learning_Outcomes_ALO3>3.  Demonstrate the ability to perform all the CRUD operations (namely, create, retrieve, update and delete) on NoSQL databases.</Assessed_Learning_Outcomes_ALO3>
+		<Overview>Computer systems that make recommendations are called recommender systems. Netflix recommends movies you may like to watch, Amazon recommends products you may be interested in purchasing, and Facebook recommends people you may want to contact and become friends with. The actual algorithms used by these companies to make such suggestions are closely guarded trade secrets, and they are not available for public scrutiny. However, in this assignment, you will have an opportunity to learn the basics behind recommender systems. You will use Facebook as a case study for recommender systems. First, you will have to create a database to store Facebook users and such a database will have to be a Neo4j graph database.</Overview>
+	</ModuleSpec>
+</Root>

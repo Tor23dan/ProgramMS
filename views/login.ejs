@@ -1,0 +1,51 @@
+<!--This is for the Loginpage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Login Page"></div>  <!--This identifies the page as the login page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <% if (errors != null && errors.length >0) { %> 
+        <ul class = "list-group">
+        <% for(var i = 0; i < errors.length; i++) { %>
+        <li class="list-group-item"><%=errors[i] %></li>
+        <% } %>
+        </ul>
+        <% } %>
+
+        <section class = site-body-login>
+        <br/>
+        <h2>Sign in</h2>
+        <br/>
+        <p>Please enter your account login details below:</p>
+        <br/>
+        <!---Login form-->
+        <br>
+        <h2>User Login:</h2>
+        <br>
+        <form action="/userLogin/login" method="POST">
+        <div class="site-login">
+            <label>Username:</label>
+            <br>
+            <input type="text" placeholder="Please Enter Username" id="username" name="username">
+            <br>
+            <label>Password:</label>
+            <br>
+            <input type="password" placeholder="Please Enter Password" id="password" name="password">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="signin-btn"><b>Login</b></button>
+            <br>
+            <br>
+        </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

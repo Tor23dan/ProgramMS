@@ -1,0 +1,63 @@
+<!--This is for the Usersetuppage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "User Setup Page"></div>  <!--This identifies the page as the admin page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+
+
+        <section class = site-body-setup>
+        <br/>
+        <h2>User-Setup</h2>
+        <br/>
+        <p>Please fill in the required details to create a user account for an Administrator, Lecturer or Student below:</p>
+        <!--UserSubmit form-->
+
+        <% if (errors != null && errors.length >0) { %> 
+            <ul class = "list-group">
+            <% for(var i = 0; i < errors.length; i++) { %>
+            <li class="list-group-item"><%=errors[i] %></li>
+            <% } %>
+            </ul>
+            <% } %>
+        
+        <br>
+        <h2>User-Submit</h2>
+        <br>
+        <form action="/userSetup/store" method="POST">      <!---This will create a special page for storing user details-->
+        <div class="site-user-setup">
+            <label>Username:</label>
+            <br>
+            <input type="text" placeholder="Please Enter Username" id="username" name="username">
+            <br>
+            <label>Password:</label>
+            <br>
+            <input type="password" placeholder="Please Enter Password" id="password" name="password">
+            <br>
+            <br>
+            <label>Account Type:</label>
+            <input list="accounttype" type="text" placeholder="Please Enter Account Type" name="accounttype">
+            <datalist id="accounttype">
+                <option value="Administrator"></option>
+                <option value="Lecturer"></option>
+                <option value="Student"></option>
+            </datalist>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="usersetup-btn">User-Setup</button>
+            <br>
+            <br>
+        </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>
